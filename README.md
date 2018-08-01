@@ -1,5 +1,5 @@
 # lgbtfans-data
-The slide deck for the presentation, "Queer Fans Deserve Data" - the LezWatch.TV story of fandom, passion, code and the desire to see fair, equal and positive representation for people like us on television. 
+The slide deck for the presentation, "Queer Fans Deserve Data" - the LezWatch.TV story of fandom, passion, code and the desire to see fair and positive LGBTQ representation on television.
 
 [![Deployment status from DeployBot](https://yikesinc.deploybot.com/badge/45290641959743/137928.svg)](http://deploybot.com)
 
