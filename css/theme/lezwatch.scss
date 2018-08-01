@@ -26,7 +26,7 @@ $linkColor: #e7ad52;
 $linkColorHover: lighten( $linkColor, 20% );
 $headingFontBig: Oswald, sans-serif;
 $headingFont: Montserrat, sans-serif;
-$headingTextShadow: none;
+$headingTextShadow:  2px 4px 3px rgba(0,0,0,0.3);
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
 $heading1Size: 7.6rem;
@@ -43,6 +43,7 @@ $selectionBackgroundColor: #e7ad52;
 .reveal h1 {
 	color: $lwtvPink;
 	font-family: $headingFontBig;
+	text-shadow: $headingTextShadow;
 }
 
 .reveal .huge {
