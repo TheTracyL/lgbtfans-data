@@ -6,6 +6,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:600);
 @import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+.reveal .align-left {
+  text-align: left !important; }
+.reveal .mt2 {
+  margin-top: 2rem; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -233,6 +238,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
+  background: none;
   border: 0;
   box-shadow: none; }
 
@@ -274,10 +280,13 @@ body {
   color: #d1548e;
   font-family: Oswald, sans-serif;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
-
 .reveal .huge {
   color: #d1548e;
   font-family: Oswald, sans-serif;
   font-size: 16rem; }
+.reveal .tall-content {
+  max-height: 600px;
+  overflow: hidden;
+  overflow-y: scroll; }
 
 /*# sourceMappingURL=lezwatch.css.map */

@@ -35,19 +35,39 @@ $heading3Size: 3rem;
 $heading4Size: 2rem;
 $selectionBackgroundColor: #e7ad52;
 
+// Helpers
+
+.reveal {
+	.align-left {
+		text-align: left !important;
+	}
+
+	.mt2 {
+		margin-top: 2rem;
+	}
+}
+
 
 // Theme template ------------------------------
 @import "template/theme";
 // ---------------------------------------------
 
-.reveal h1 {
-	color: $lwtvPink;
-	font-family: $headingFontBig;
-	text-shadow: $headingTextShadow;
-}
+.reveal {
+	h1 {
+		color: $lwtvPink;
+		font-family: $headingFontBig;
+		text-shadow: $headingTextShadow;
+	}
 
-.reveal .huge {
-	color: $lwtvPink;
-	font-family: $headingFontBig;
-	font-size: 16rem;
+	.huge {
+		color: $lwtvPink;
+		font-family: $headingFontBig;
+		font-size: 16rem;
+	}
+
+	.tall-content {
+		max-height: 600px;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
 }
