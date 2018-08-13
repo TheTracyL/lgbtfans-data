@@ -59,10 +59,15 @@ $selectionBackgroundColor: #e7ad52;
 		text-shadow: $headingTextShadow;
 	}
 
+	blockquote {
+		width: 80%;
+	}
+
 	.huge {
 		color: $lwtvPink;
 		font-family: $headingFontBig;
 		font-size: 16rem;
+		line-height: 1.1;
 	}
 
 	.tall-content {

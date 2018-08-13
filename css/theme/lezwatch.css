@@ -280,10 +280,13 @@ body {
   color: #d1548e;
   font-family: Oswald, sans-serif;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+.reveal blockquote {
+  width: 80%; }
 .reveal .huge {
   color: #d1548e;
   font-family: Oswald, sans-serif;
-  font-size: 16rem; }
+  font-size: 16rem;
+  line-height: 1.1; }
 .reveal .tall-content {
   max-height: 600px;
   overflow: hidden;
